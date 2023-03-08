@@ -6,7 +6,7 @@
 /*   By: henrilindeza <henrilindeza@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/08 08:53:20 by henrilindez       #+#    #+#             */
-/*   Updated: 2023/03/08 18:59:31 by henrilindez      ###   ########.fr       */
+/*   Updated: 2023/03/08 21:17:13 by henrilindez      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,4 +43,8 @@ void	ft_bzero(void *s, size_t n);
 
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(char *src);
+
+//char	*ft_strtrim(char const *s1, char const *set);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 #endif
