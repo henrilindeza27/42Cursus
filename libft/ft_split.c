@@ -6,13 +6,13 @@
 /*   By: henrilindeza <henrilindeza@student.42.f    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/10 16:24:29 by henrilindez       #+#    #+#             */
-/*   Updated: 2023/03/10 17:13:24 by henrilindez      ###   ########.fr       */
+/*   Updated: 2023/03/10 18:02:07 by henrilindez      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_word_count(char *str, char charset)
+static int	ft_word_count(char *str, char charset)
 {
 	int	i;
 	int	word_count;
@@ -31,7 +31,7 @@ int	ft_word_count(char *str, char charset)
 	return (word_count);
 }
 
-int	ft_wordlen(char *str, char charset)
+static int	ft_wordlen(char *str, char charset)
 {
 	int	i;
 
@@ -41,7 +41,7 @@ int	ft_wordlen(char *str, char charset)
 	return (i);
 }
 
-char	*ft_word(char *str, char charset)
+static char	*ft_word(char *str, char charset)
 {
 	int		len_word;
 	int		i;
